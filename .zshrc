@@ -27,6 +27,7 @@ alias fire='aafire -driver curses'
 alias fun='fun.sh'
 alias rm='rmtrash'
 alias c='clear'
+alias e='exit'
 alias vim='nvim'
 
 
@@ -71,6 +72,7 @@ zinit cdreplay -q
 bindkey -e
 bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
+source <(fzf --zsh)
 
 # History
 HISTSIZE=5000
