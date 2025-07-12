@@ -1,12 +1,16 @@
 #
 # ~/.zshrc
 #
-
+#updating zinit: zinit self-update
+#updating plugins: zinit update
+#
+#
 
 # Shell integrations
 eval "$(starship init zsh)"
 eval $(thefuck --alias)
 eval "$(fzf --zsh)"
+eval "$(zoxide init zsh)"
 
 fastfetch
 
@@ -14,7 +18,7 @@ fastfetch
 alias ls='eza --icons -a -a --group-directories-first -l'
 alias grep='grep --color=auto'
 alias rain='terminal-rain'
-alias update='sudo pacman -Syu'
+alias syncupd='sudo pacman -Sy'
 alias hack='hollywood'
 alias matrix='cmatrix -ab -u 2'
 alias bonsai='cbonsai -l -i --life=40'
@@ -87,3 +91,5 @@ zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 zstyle ':completion:*' menu no
 zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
+
+
