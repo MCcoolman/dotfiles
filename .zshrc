@@ -29,6 +29,7 @@ alias rm='rmtrash'
 alias c='clear'
 alias e='exit'
 alias vim='nvim'
+alias yay='paru'
 
 
 # Created by `pipx` on 2025-05-15 04:56:11
