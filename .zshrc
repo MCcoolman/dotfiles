@@ -12,7 +12,7 @@ eval $(thefuck --alias)
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 
-fastfetch
+# fastfetch
 
 # Aliases
 alias ls='eza --icons -a -a --group-directories-first -l'
