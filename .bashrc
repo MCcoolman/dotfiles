@@ -5,7 +5,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-fastfetch
+# fastfetch
 
 alias ls='eza --icons -a -a --group-directories-first -l'
 alias grep='grep --color=auto'

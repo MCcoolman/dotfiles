@@ -30,7 +30,9 @@ alias c='clear'
 alias e='exit'
 alias vim='nvim'
 alias yay='paru'
-
+alias re='reboot'
+alias po='poweroff'
+alias lo='hyprctl dispatch exit'
 
 # Created by `pipx` on 2025-05-15 04:56:11
 export PATH="$PATH:/home/lucas/.local/bin"
