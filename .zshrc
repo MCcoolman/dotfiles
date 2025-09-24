@@ -33,6 +33,7 @@ alias yay='paru'
 alias re='reboot'
 alias po='poweroff'
 alias lo='hyprctl dispatch exit'
+alias ff="fastfetch"
 
 # Created by `pipx` on 2025-05-15 04:56:11
 export PATH="$PATH:/home/lucas/.local/bin"
