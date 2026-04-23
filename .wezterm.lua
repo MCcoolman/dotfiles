@@ -1,8 +1,12 @@
--- Pull in the wezterm API
-local wezterm = require 'wezterm'
+local wezterm = require("wezterm")
+-- local mux = wezterm.mux
 
--- This will hold the configuration.
-local config = wezterm.config_builder()
+
+local config = {}
+-- Use config builder object if possible
+if wezterm.config_builder then
+    config = wezterm.config_builder()
+    end
 
 -- Set colorscheme
 config.color_scheme = 'Tokyo Night Storm'
