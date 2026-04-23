@@ -1,3 +1,9 @@
+--- __      __      _
+--- \ \    / /__ __| |_ ___ _ _ _ __
+---  \ \/\/ / -_)_ /  _/ -_) '_| '  \
+---   \_/\_/\___/__|\__\___|_| |_|_|_|
+---
+--- wezterm.lua - personal configuration
 local wezterm = require("wezterm")
 -- local mux = wezterm.mux
 
