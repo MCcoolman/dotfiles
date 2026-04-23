@@ -8,7 +8,7 @@
 
 # Shell integrations
 eval "$(starship init zsh)"
-eval $(thefuck --alias)
+eval "$(thefuck --alias)"
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 
