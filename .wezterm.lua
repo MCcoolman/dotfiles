@@ -9,7 +9,7 @@ if wezterm.config_builder then
     end
 
 -- Set colorscheme
-config.color_scheme = 'Tokyo Night Storm'
+config.color_scheme = "Tokyo Night Storm"
 
 -- Font settings
 config.font = wezterm.font("Share Tech Mono")
@@ -22,7 +22,7 @@ config.enable_tab_bar = false
 config.window_background_opacity = 0.85
 
 config.window_frame = {
-    font = wezterm.font { family = 'Share Tech Mono'},
+    font = wezterm.font { family = "Share Tech Mono"},
     font_size = 12.0,
 
 }
